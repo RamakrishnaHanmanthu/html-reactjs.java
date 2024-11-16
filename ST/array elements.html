@@ -1,0 +1,43 @@
+<html>
+    <body>
+        
+        <script>
+    //// Arrays
+// Array methods
+let fruits = ["apple", "banana", "mango"];
+fruits.push("orange");
+console.log(fruits); // Output: ["apple", "banana", "mango", "orange"]
+
+fruits.pop();
+console.log(fruits); // Output: ["apple", "banana", "mango"]
+
+fruits.shift();
+console.log(fruits); // Output: ["banana", "mango"]
+
+fruits.unshift("grape");
+console.log(fruits); // Output: ["grape", "banana", "mango"]
+
+fruits.splice(1, 1, "kiwi");
+console.log(fruits); // Output: ["grape", "kiwi", "mango"]
+
+let slicedFruits = fruits.slice(1, 2);
+console.log(slicedFruits); // Output: ["kiwi"]
+
+let moreFruits = fruits.concat(["pear", "pineapple"]);
+console.log(moreFruits); // Output: ["grape", "kiwi", "mango", "pear", "pineapple"]
+
+// Array iteration
+fruits.forEach((fruit) => console.log(fruit));
+
+let upperFruits = fruits.map((fruit) => fruit.toUpperCase());
+console.log(upperFruits); // Output: ["GRAPE", "KIWI", "MANGO"]
+
+let filteredFruits = fruits.filter((fruit) => fruit.startsWith("g"));
+console.log(filteredFruits); // Output: ["grape"]
+
+let totalLength = fruits.reduce((total, fruit) => total + fruit.length, 0);
+console.log(totalLength); // Output: 14
+
+</script>
+</body>
+</html>

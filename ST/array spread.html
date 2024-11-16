@@ -1,0 +1,19 @@
+<html>
+
+<body>
+<script>
+
+    let arr = [10,20,40];
+    console.log(arr);
+    let arr1 = [...arr];
+    console.log(arr1); // 10,20,40
+    arr.push(30);//10,20,40,30
+    arr1.push(35);//10,20,40,35
+    arr1.sort();//10,20,35,40
+    arr1.shift();//20,35,40
+    console.log(arr1);//20,35,40
+    console.log(arr);//10,20,40,30
+    </script>
+
+</body>
+</html>

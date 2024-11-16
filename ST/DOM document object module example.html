@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+    <html lang="en">
+        <head>
+            <title>DOM Example</title>
+        </head>
+        <body>
+<h1 id= "title">Hello</h1>
+<button onclick="changeText()">Click me </button>
+<button onclick="changeText1()">Click me1</button>
+<button onclick="changeText3()">click me2</button>
+ 
+<script>
+    function changeText(){
+        document.getElementById('title').innerText = 'Hello , World!';
+    }
+    function changeText1(){
+        document.getElementById('title').innerText = 'hello , world from dom' ;
+    }
+    function changeText3(){
+        document.getElementById('title').innerText = 'hii king';
+    }
+    </script>
+
+</body>
+</html>

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>my self</title>
+</head>
+<body>
+
+<h1>About me</h1>
+<p>hi this Ramakrishna Hanmanthu from Madhapur.</p>
+<p>my hobbies playing cricket and watching movies.<p>
+<p>i have completed my B.tech with 70%, and my diploma with 68%, and also my SSC with 85% <p>
+
+</body>
+</html>
